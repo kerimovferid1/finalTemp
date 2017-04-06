@@ -1,0 +1,68 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif; }
+
+#headerALL .container .header_logo {
+  transition: .3s all ease;
+  position: relative;
+  text-align: left;
+  padding: 38px 15px 0;
+  display: flex; }
+#headerALL .container .number {
+  margin-left: auto;
+  display: flex;
+  width: 30vw;
+  justify-content: space-between; }
+#headerALL .container .phone {
+  display: flex; }
+#headerALL .container .phone_left, #headerALL .container .phone_right {
+  position: relative;
+  width: 50px;
+  line-height: 50px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background: #e5e5e5;
+  border-radius: 100%;
+  margin-right: 13px; }
+  #headerALL .container .phone_left i, #headerALL .container .phone_right i {
+    position: absolute;
+    top: 11px;
+    left: 14px;
+    color: #18AFD3; }
+#headerALL .container .phone_right i {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  color: #18AFD3; }
+#headerALL .container .nav {
+  height: 60px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #18afd3;
+  box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 32px; }
+#headerALL .container .nav li a {
+  color: white;
+  padding: 18px 24px;
+  font-size: 17px; }
+#headerALL .container .phone_l span {
+  font-size: 16px; }
+#headerALL .header_down {
+  height: 345px;
+  background: url("../img/12.jpg");
+  background-size: cover; }
+
+/*# sourceMappingURL=style.css.map */
